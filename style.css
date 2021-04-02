@@ -25,3 +25,146 @@ body {
 */
 
 /* ----- zde zacni psat vlastni css ----- */
+
+.zbozi {
+    position: relative;
+    width: 335px;
+    height: 440px;
+    left: 400px;
+    top: 100px;
+    background: linear-gradient(#06d7c1, #50cc49);
+    border-radius: 10px 0 0 10px;
+    font-family: Rubik;
+    font-size: 14px;
+    box-shadow: 0px 1px 5px #959595;
+}
+
+.detaily {
+    position: relative;
+    width: 335px;
+    height: 440px;
+    left: 335px;
+    bottom: 497px;
+    border-radius: 0 10px 10px 0;
+    padding-left: 30px;
+    padding-right: 10px;
+    font-family: Rubik;
+    font-size: 14px;
+    box-shadow: 1px 1px 5px #959595;
+}
+
+.velikosti li {
+    display: inline;
+    font-weight: 400;
+    
+    
+
+}
+
+body {
+    background-color: #f5f5f5;
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.logo {
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.slogan {
+    padding-top: 10px;
+    padding-left: 30px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+      
+}
+
+.bota {
+    position: relative;
+    right: 80px;
+}
+
+.cenovka {
+    text-align: right;
+    padding-right: 30px;
+    position: relative;
+    bottom: 80px;
+    color: white;
+}
+
+.cena {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.zaruka {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+
+.nazev {
+    padding-top: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.produkt {
+    color: #959595;
+}
+
+.popis {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-right: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    border-bottom: 2px solid #06d7c1;
+    margin-right: 10px;
+}
+
+.parametr {
+    padding-top: 15px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: left;
+    padding-right: 20px;
+}
+
+.vybrana {
+    color: #f15f42;
+    border: 2px solid #f15f42;
+    border-radius: 50%;
+    padding: 5px;
+
+}
+
+.velikosti {
+    line-height: 1.5;
+    word-spacing: 20px;
+    padding-left: 0.5rem;
+}
+    
+
+.tlacitko {
+    color: white;
+    text-transform: uppercase;
+    background-color: #f15f42;
+    padding: 15px 25px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+.akce {
+    position: relative;
+    top: 70px;
+}
+
+/* Ahoj, zakulaceni rohu jsem zvolila jen 10px, prislo mi to, ze to na ten vysledek sedi vice nez tech 30px. Jinak je mi jasne, ze je tam spousta chyb. s cim jsem si nedokazala poradit je tlacitko do kosiku - nechapu, proc mi to tam porad ukazuje podtrzeni, zkousela jsem zadavat k tomu i border-bottom: none, ale nic to neudelalo, tak jsem to zase smazala, taky mi na nekolika mistech ten text prijde vic tucny nez je v obrazku, jak by to melo vypadat, ale mam tam pismo Rubik i pozadovanou velikost a tloustku, tak nevim. Diky za opravne komenty :) a snad jsem povinny ukol splnila.*/
